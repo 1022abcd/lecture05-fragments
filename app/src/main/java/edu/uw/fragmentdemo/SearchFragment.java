@@ -59,6 +59,7 @@ public class SearchFragment extends Fragment {
                 callback.onSearchSubmitted(searchTerm);
             }
         });
+        return rootView;
     }
 
 }
